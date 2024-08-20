@@ -26,6 +26,9 @@ function Navbar() {
                     <NavLink to="/login" activeStyle>
                         Login
                     </NavLink>
+                    <NavLink to="/binder" activeStyle>
+                        Binder
+                    </NavLink>
                 </NavMenu>
                 <NavBtn>
                     <NavBtnLink to="/signin">

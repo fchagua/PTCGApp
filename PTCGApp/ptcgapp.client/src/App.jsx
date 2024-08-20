@@ -8,6 +8,7 @@ import Home from './pages';
 import About from './pages/about';
 import Signup from './pages/signup';
 import Login from './pages/login';
+import Binder from './pages/binder';
 import Navbar from './components/navbar';
 import './App.css';
 
@@ -21,6 +22,7 @@ function App() {
                 <Route path="/about" element={<About />} />
                 <Route path="/signup" element={<Signup />} />
                 <Route path="/login" element={<Login />} />
+                <Route path="/binder" element={<Binder />} />
             </Routes>
 
         </Router>
